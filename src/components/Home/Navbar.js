@@ -7,13 +7,13 @@ const Navber = () => {
   return (
     <div className="home_page">
       <div className="d-flex justify-content-center mt-2">
-        <Link href="https://www.facebook.com/NigarFashionWorld" target="_blank">
+        {/* <Link href="https://www.facebook.com/NigarFashionWorld" target="_blank">
           <Image
             src={logo}
             style={{ width: "100px", height: "100px" }}
             alt=""
           />
-        </Link>
+        </Link> */}
       </div>
       <div
         className="py-3 d-flex justify-content-center mt-3"
