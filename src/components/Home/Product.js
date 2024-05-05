@@ -6,6 +6,7 @@ import { MdOutlineClose } from "react-icons/md";
 import Pic4 from "../../image/pic4.jpg";
 import { Table } from "react-bootstrap";
 import OrderForm from "./OrderForm";
+import Image from "next/image";
 
 const Product = () => {
   const [productQuantity, setProductQuantity] = useState(1);
@@ -46,7 +47,7 @@ const Product = () => {
               <tr>
                 <td className="d-flex gap-2">
                   {" "}
-                  <img
+                  <Image
                     style={{
                       width: "80px",
                       height: "80px",
